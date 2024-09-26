@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: rgb(101, 125, 108);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-bottom: 1px solid #ccc;
+}
+
+.header h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info a {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(33, 22, 69);
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: #575fca;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+#user-input {
+    height: 20px;
+    flex: 1;
+}
+
+#send-button {
+    height: 26px;
+    width: 40px;
+}
