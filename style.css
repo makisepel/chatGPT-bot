@@ -26,6 +26,7 @@ body {
 
 .info {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -58,4 +59,49 @@ body {
 #send-button {
     height: 26px;
     width: 40px;
+}
+
+.chat-container {
+    flex: 1;
+}
+
+.chat-box {
+    display:flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#chat-log {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#chat-log i {
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.bot, .user {
+    display: flex;
+    align-items: flex-start;
+    color: #eeeeee;
+    width: 100%;
+    padding: 15px 7px 15px 10px;
+    border-radius: 6px;
+}
+
+.bot {
+    background-color: #414153;
+}
+
+#chat-log #user-icon i {
+    background-color: #31a688;
+    padding: 10px 11px;
+}
+
+#chat-log #bot-icon i {
+    background-color: #9a6ecc;
+    padding: 10px 11px;
 }
